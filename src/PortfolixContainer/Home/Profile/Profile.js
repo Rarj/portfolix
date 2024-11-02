@@ -6,7 +6,7 @@ import ScrollService from '../../../util/ScrollService'
 export default function Profile(props) {
     const [typeEffect] = useTypewriter({
         words: [
-            'Android Engineer 🤖',
+            'Sr. Android Engineer',
         ],
         loop: {},
         typeSpeed: 100,
@@ -55,17 +55,6 @@ export default function Profile(props) {
                                 Innovation through collaboration, impact through technology
                             </span>
                         </span>
-                    </div>
-                    <div className='profile-options'>
-                        {/* <button
-                            className='btn primary-btn'
-                            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                        >
-                            Contact Me
-                        </button> */}
-                        {/* <a href='Rio Arjuna - Sr. Android Engineer.pdf' download='Rio Arjuna - Sr. Android Engineer.pdf'>
-                            <button className='btn highlighted-btn'>Download Resume</button>
-                        </a> */}
                     </div>
                 </div>
                 <div className='profile-picture'>

@@ -46,16 +46,6 @@
     color: cornsilk;
 }
 
-.profile-options .highlighted-btn {
-    margin: 0 0 0 28px;
-}
-
-.profile-options .highlighted-btn:hover {
-    margin: 0 0 0 28px;
-    background-color: cornsilk;
-    color: black;
-}
-
 .profile-picture {
     display: flex;
     align-items: center;
@@ -106,18 +96,6 @@
     .profile-details-role .primary-text {
         font-size: 12px;
     }
-
-    .profile-options .btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
-
-    .profile-options .highlighted-btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -132,18 +110,6 @@
     .profile-details-role .primary-text {
         font-size: 12px;
     }
-
-    .profile-options .btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
-
-    .profile-options .highlighted-btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
 }
 
 @media screen and (max-width: 910px) {
@@ -151,18 +117,6 @@
         height: 320px;
         width: 320px;
         margin: 0 0 0 4px;
-    }
-
-    .profile-options .btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
-
-    .profile-options .highlighted-btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
     }
 }
 
@@ -176,28 +130,10 @@
         margin: 40px 0 0 0;
     }
 
-    .profile-options {
-        display: flex;
-        justify-content: center;
-    }
-
     .profile-details {
         margin: 25px 0 0;
     }
 
-    .profile-options .btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
-
-    .profile-options .highlighted-btn {
-        width: 160px;
-        padding: 12px 0;
-        margin: 4px !important;
-    }
-
-    .profile-options,
     .profile-details-role {
         text-align: center;
     }
@@ -218,15 +154,30 @@
         width: 90%;
     }
 
-    .profile-options .btn {
-        width: 140px;
-        padding: 12px 0;
-        margin: 4px !important;
+    .profile-container {
+        display: flex;
+        margin-top: 24px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        min-height: fit-content;
     }
 
-    .profile-options .highlighted-btn {
-        width: 140px;
-        padding: 12px 0;
-        margin: 4px !important;
+    .profile-details-name {
+        font-size: 22px;
+        margin-top: 8px;
+        font-family: "Poppins SemiBold";
+    }
+
+    .profile-details-role h1 {
+        font-size: 28px;
+        font-family: "Poppins Bold";
+        margin-bottom: 24px;
+    }
+
+    .profile-role-tagline {
+        font-size: 18px;
+        font-family: 'Poppins Medium';
+        color: cornsilk;
     }
 }
