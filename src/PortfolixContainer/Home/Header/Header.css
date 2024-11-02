@@ -117,3 +117,42 @@
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 912px) {
+    .header-hamburger-bars {
+        font-size: 24px;
+        cursor: pointer;
+        margin: 0px px;
+        color: var(--white);
+    }
+
+    .header-logo {
+        font-size: 36px;
+        font-family: "Poppins ExtraBold";
+        color: var(--white);
+        margin-left: 8px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+        height: 86px;
+        color: var(--white);
+    }
+
+    .header-option {
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .header-parent {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 100%;
+        width: 100%;
+        color: var(--white);
+    }
+
+}
